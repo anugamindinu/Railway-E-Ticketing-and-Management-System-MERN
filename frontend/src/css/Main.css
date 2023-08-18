@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* set background color and font color */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* center the page content */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* add a heading and subheading */
+.header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.header h2 {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+/* add a featured image */
+.featured-image {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+/* add a call-to-action button */
+.cta {
+    text-align: center;
+    margin-top: 50px;
+}
+.cta button {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.cta button:hover {
+    background-color: #0069d9;
+}
+
+/* add a gallery section */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.gallery img {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+}
+
+.g{
+    color: #000000;
+	font-style: normal;
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-size:50px;
+}
+
+.w{
+    color: #000000;
+    font-style: normal;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 30px;    
+}
+
+
+.pra{
+	color: #353333;
+	font-style: normal;
+    font-family: serif;
+        	font-size: 18px;
+    
+
+}
+
+.butte {
+	padding: 15px 32px;
+    text-align: center;
+	background-color:  rgb(0, 0, 0);
+	border: 2px solid #000000;
+	border-radius: 100px;
+	font-size: 18px;
+	text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+	transition: background-color 0.2s ease-in-out;
+	font-family: "Lucida Console", "Courier New", monospace;
+    color: #ffffff;
+
+	
+  }
+  
+  .butte:hover {
+	background-color: rgb(255, 255, 255);
+    color: #000;
+  }
